@@ -22,7 +22,7 @@ The project is regarding the Hangman game. The logic regarding the input was for
 
 3 Scenario:
 
--Input is right but letter already guessed
+- Input is right but letter already guessed
 
 4 Scenario
 - Input is wrong (typo etc)
@@ -31,13 +31,13 @@ Regarding the choice of the word, it was created by choosing randomly a word fro
 
 The final result:
 
-1)Win if world letters length is equal to zero
+1) Win if world letters length is equal to zero
 
 OR
 
-2)Lost if there are no more attempts left, attempts is equal to zero
+2) Lost if there are no more attempts left, attempts is equal to zero
 
-Finally, asked if player wants to play again
+Finally, asked if player wants to play one more time
 
 The is a cycle that keeps asking the user for input if there is no winner or loser yet.
 
@@ -47,17 +47,18 @@ The is a cycle that keeps asking the user for input if there is no winner or los
 
 
 ## Project Goals
-During this project you will:
-* Create your own git repository. 
-* Build your own code from scratch. 
-* Put into practice the basic python concepts learned during the week. 
+Game created
+Functions
+List comprehension
+
 
 ## Requirements & Deliverables
-The **mandatory** requirements that this project needs to satisfy are:  
-* Your repository must be clean and organized, which means that it must include a *.gitignore* file and a README file, as well as have a well-structured file organization. 
-* Your code includes functions and list comprehension
+*.gitignore* file
+README file with project explanation
+Hangman file with code
 
-The **mandatory** deliverables that you must turn in are:
-* Link to the repository you used while building your project. The repository must include a README.md file with a description of your project and all the files you used to build your game. Remember to commit often!
+## Personal struggle
+Started trying with lists and had some issues. Found online the set option to solve it
+
 
 The **deadline** to turn in the deliverables is Sunday at 23:59. 
