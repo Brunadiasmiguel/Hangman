@@ -11,33 +11,54 @@
 - [Requirements & Deliverables](#requirements-&-deliverables)
 
 ## Project Description
-In this project, you will create your first software!
-You are tasked with creating a **game** that interacts with the user, using the functions and basic python resources you have learned during the week. Your game will be able to take an input from the user and provide an output. For project planning you can use a Kanban or Trello board. You can find a template for Trello [here](https://trello.com/b/pc2CNZTo/project-1-build-your-own-game).
+The project is regarding the Hangman game. The logic regarding the input was forked into four main scenarios:
+
+1 Scenario:
+- Input is right and in the word: no iteration over failed attempts
+
+2 Scenario:
+- Input is right but not in the word
+- Iteration over attempts and the HANGMAN
+
+3 Scenario:
+
+- Input is right but letter already guessed
+
+4 Scenario
+- Input is wrong (typo etc)
+
+Regarding the choice of the word, it was created by choosing randomly a word from a given list
+
+The final result:
+
+1) Win if world letters length is equal to zero
+
+OR
+
+2) Lost if there are no more attempts left, attempts is equal to zero
+
+Finally, asked if player wants to play one more time
+
+The is a cycle that keeps asking the user for input if there is no winner or loser yet.
 
 ## Games
-You can develop one of the following games or another game of your choice:
 
-* Strong Random Password Generator
-* Guess The Number
 * Hangman
-* Message Encryption & Decryption
-* Mastermind
-* Tic Tac Toe
-* Blackjack
-* Soldier & Dice (Risk)
+
 
 ## Project Goals
-During this project you will:
-* Create your own git repository. 
-* Build your own code from scratch. 
-* Put into practice the basic python concepts learned during the week. 
+Game created
+Functions
+List comprehension
+
 
 ## Requirements & Deliverables
-The **mandatory** requirements that this project needs to satisfy are:  
-* Your repository must be clean and organized, which means that it must include a *.gitignore* file and a README file, as well as have a well-structured file organization. 
-* Your code must include functions. 
+*.gitignore* file
+README file with project explanation
+Hangman file with code
 
-The **mandatory** deliverables that you must turn in are:
-* Link to the repository you used while building your project. The repository must include a README.md file with a description of your project and all the files you used to build your game. Remember to commit often!
+## Personal struggle
+Started trying with lists and had some issues. Found online the set option to solve it
+
 
 The **deadline** to turn in the deliverables is Sunday at 23:59. 
