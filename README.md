@@ -11,20 +11,36 @@
 - [Requirements & Deliverables](#requirements-&-deliverables)
 
 ## Project Description
-In this project, you will create your first software!
-You are tasked with creating a **game** that interacts with the user, using the functions and basic python resources you have learned during the week. Your game will be able to take an input from the user and provide an output. For project planning you can use a Kanban or Trello board. You can find a template for Trello [here](https://trello.com/b/pc2CNZTo/project-1-build-your-own-game).
+The project is regarding the Hangman game. The logic regarding the input was forked into three main scenarios:
+
+1 Scenario:
+- Input is right and in the word: no iteration over failed attempts
+
+2 Scenario:
+- Input is right but not in the word
+- Iteration over attempts and the HANGMAN
+
+3 Scenario
+- Input is wrong (typo), new cycle to ask for a new input
+
+Regarding the choice of the word, it was created by choosing randomly a word from a given list
+
+The final result:
+
+1)Win if world letters length is equal to zero
+
+OR
+
+2)Lost if there are no more attempts left, attempts is equal to zero
+
+Finally, asked if player wants to play again
+
+
 
 ## Games
-You can develop one of the following games or another game of your choice:
 
-* Strong Random Password Generator
-* Guess The Number
 * Hangman
-* Message Encryption & Decryption
-* Mastermind
-* Tic Tac Toe
-* Blackjack
-* Soldier & Dice (Risk)
+
 
 ## Project Goals
 During this project you will:
@@ -35,7 +51,7 @@ During this project you will:
 ## Requirements & Deliverables
 The **mandatory** requirements that this project needs to satisfy are:  
 * Your repository must be clean and organized, which means that it must include a *.gitignore* file and a README file, as well as have a well-structured file organization. 
-* Your code must include functions. 
+* Your code includes functions and list comprehension
 
 The **mandatory** deliverables that you must turn in are:
 * Link to the repository you used while building your project. The repository must include a README.md file with a description of your project and all the files you used to build your game. Remember to commit often!
