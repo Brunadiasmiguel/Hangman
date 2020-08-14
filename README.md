@@ -11,7 +11,7 @@
 - [Requirements & Deliverables](#requirements-&-deliverables)
 
 ## Project Description
-The project is regarding the Hangman game. The logic regarding the input was forked into three main scenarios:
+The project is regarding the Hangman game. The logic regarding the input was forked into four main scenarios:
 
 1 Scenario:
 - Input is right and in the word: no iteration over failed attempts
@@ -20,8 +20,12 @@ The project is regarding the Hangman game. The logic regarding the input was for
 - Input is right but not in the word
 - Iteration over attempts and the HANGMAN
 
-3 Scenario
-- Input is wrong (typo), new cycle to ask for a new input
+3 Scenario:
+
+-Input is right but letter already guessed
+
+4 Scenario
+- Input is wrong (typo etc)
 
 Regarding the choice of the word, it was created by choosing randomly a word from a given list
 
@@ -35,7 +39,7 @@ OR
 
 Finally, asked if player wants to play again
 
-
+The is a cycle that keeps asking the user for input if there is no winner or loser yet.
 
 ## Games
 
